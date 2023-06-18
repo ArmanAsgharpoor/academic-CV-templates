@@ -5,12 +5,22 @@ This repository provides a collection of stunning LaTeX templates for creating p
 
 ## Table of Contents
 
+## Table of Contents
+
 - [Introduction](#introduction)
 - [Templates](#templates)
 - [Folder Structure](#folder-structure)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [Tutorial: Academic CV Sections](#tutorial-academic-cv-sections)
+  - [1. Education](#1-education)
+  - [2. Research Experience](#2-research-experience)
+  - [3. Publications](#3-publications)
+  - [4. Skills](#4-skills)
+  - [5. Awards and Honors](#5-awards-and-honors)
+  - [6. References](#6-references)
 - [License](#license)
+
 
 ## Introduction
 
