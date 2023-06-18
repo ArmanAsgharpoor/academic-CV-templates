@@ -74,6 +74,71 @@ To contribute, follow these steps:
 
 Please provide a clear description of your changes and why you believe they should be included.
 
+## Tutorial: Academic CV Sections
+
+This tutorial provides an overview of each section in an academic CV, explaining its purpose, why it is important to include it, and what information should be included.
+
+### 1. Education
+
+The **Education** section lists your academic qualifications, degrees, and certifications. It showcases your educational background and demonstrates your commitment to learning and academic excellence. Include the following information for each degree:
+
+- Degree title, such as "PhD in Computer Science"
+- Institution name and location
+- Graduation date (or expected graduation date for ongoing degrees)
+
+### 2. Research Experience
+
+The **Research Experience** section highlights your involvement in research projects and demonstrates your expertise in your field. Include the following information for each research experience:
+
+- Position title, such as "Research Assistant" or "Research Intern"
+- Institution or organization name and location
+- Duration of the research project (start and end dates)
+- A brief description of the project objectives, methodology, and your role and contributions
+
+### 3. Publications
+
+The **Publications** section showcases your scholarly contributions and highlights your research output. Include the following information for each publication:
+
+- Publication type (journal article, conference paper, book chapter, etc.)
+- Authors (including yourself) and their affiliations
+- Title of the publication
+- Name of the journal or conference
+- Volume, issue, and page numbers
+- Publication date
+
+### 4. Skills
+
+The **Skills** section demonstrates your technical and research skills that are relevant to your field of study. Include the following information:
+
+- Programming languages, such as Python, Java, or C++
+- Software and tools, such as TensorFlow, MATLAB, or LaTeX
+- Analytical techniques, such as data analysis, machine learning, or statistical modeling
+- Other skills that are applicable to your research area, such as web development or database management
+
+### 5. Awards and Honors
+
+The **Awards and Honors** section highlights your achievements, recognition, and academic distinctions. Include the following information:
+
+- Name of the award or honor
+- Granting organization or institution
+- Year received
+
+### 6. References
+
+The **References** section provides contact information for individuals who can vouch for your abilities, such as research advisors or collaborators. Include the following information for each reference:
+
+- Full name
+- Position or title
+- Institution or organization
+- Email address (optional, but recommended for online applications)
+
+Including these sections in your academic CV helps provide a comprehensive overview of your qualifications, research experience, publications, skills, and recognition. It allows potential employers, academic institutions, or funding agencies to assess your suitability for research positions, academic programs, or grants.
+
+Remember to tailor your CV to the specific requirements of each opportunity you are applying for. Highlight the most relevant information and showcase your accomplishments to make a strong impression.
+
+Best of luck with your academic CV!
+
+
 ## License
 
 This repository is licensed under the [MIT License](LICENSE). Feel free to use the templates for personal and commercial purposes, modify them, and distribute them as needed. However, attribution is appreciated.
