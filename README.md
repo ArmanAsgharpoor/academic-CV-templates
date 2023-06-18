@@ -34,6 +34,7 @@ The repository currently includes the following academic CV templates:
 - [Template 2](template2/): A traditional design with a focus on education and research interests.
 - [Template 3](template3/): A minimalist design suitable for researchers in various disciplines.
 - [Template 4](template4/): A visually striking design that highlights key accomplishments.
+- [Template 5](template5/): An elegant and professional design that showcases a comprehensive academic profile.
 
 Feel free to explore each template's folder for a preview of the LaTeX source code (\*.tex) and the corresponding PDF output (\*.pdf).
 
