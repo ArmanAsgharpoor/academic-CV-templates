@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\titleformat{\section}
+  {\normalfont\large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+
+\begin{document}
+
+\begin{center}
+  \textbf{\LARGE Your Name} \\
+  \vspace{0.5em}
+  Curriculum Vitae
+\end{center}
+
+\section*{Contact Information}
+\begin{tabular}{@{}p{3.5cm}p{10cm}}
+  \textbf{Address} & Your Address \\
+  \textbf{Phone} & Your Phone Number \\
+  \textbf{Email} & \href{mailto:youremail@example.com}{youremail@example.com} \\
+  \textbf{Website} & \href{http://www.yourwebsite.com}{www.yourwebsite.com} \\
+  \textbf{LinkedIn} & \href{http://www.linkedin.com/in/yourprofile}{linkedin.com/in/yourprofile} \\
+\end{tabular}
+
+\section*{Education}
+\begin{tabular}{@{}p{3.5cm}p{10cm}}
+  \textbf{Year} & \textbf{Degree} \hfill \textbf{Institution} \\
+  \textbf{2018--2022} & Bachelor of Science in XYZ \hfill University of ABC \\
+\end{tabular}
+
+\section*{Research Experience}
+\begin{tabular}{@{}p{3.5cm}p{10cm}}
+  \textbf{Year} & \textbf{Research Position} \hfill \textbf{Research Group} \\
+  \textbf{2020--2022} & Research Assistant \hfill Department of XYZ, University of ABC \\
+  & Conducted experiments, analyzed data, and contributed to research publications. \\
+\end{tabular}
+
+\section*{Publications}
+\begin{enumerate}[leftmargin=0.5cm,itemsep=1ex]
+  \item \textbf{Your Name}, Co-Author Name. (2022). Title of Paper. \emph{Journal of XYZ}, 20(2), 100-120. \href{http://www.example.com/paper1}{[Link]}
+  \item Co-Author Name, \textbf{Your Name}. (2021). Another Paper Title. \emph{Conference Proceedings of ABC}, 50-60. \href{http://www.example.com/paper2}{[Link]}
+\end{enumerate}
+
+\section*{Skills}
+\begin{itemize}[leftmargin=0.5cm,itemsep=1ex]
+  \item Programming: Python, MATLAB, R
+  \item Data Analysis: Statistics, Machine Learning, Data Visualization
+  \item Research Methods: Experimental Design, Survey Design, Qualitative Analysis
+\end{itemize}
+
+\section*{Awards and Honors}
+\begin{itemize}[leftmargin=0.5cm,itemsep=1ex]
+  \item Scholarship for Academic Excellence, University of ABC (2018--2022)
+  \item Best Poster Presentation Award, Conference XYZ (2021)
+\end{itemize}
+
+\section*{References}
+Available upon request.
+
+\end{document}

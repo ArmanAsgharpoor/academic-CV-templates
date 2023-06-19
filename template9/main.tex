@@ -1,0 +1,121 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{titlesec}
+
+% Define colors
+\usepackage[dvipsnames]{xcolor}
+\definecolor{accentcolor}{RGB}{46,116,181}
+
+% Set section titles
+\titleformat{\section}
+{\color{accentcolor}\normalfont\Large\bfseries}
+{}{0em}{}
+
+% Adjust itemize spacing
+\setlist[itemize]{leftmargin=*}
+\setlength{\multicolsep}{0pt}
+
+% CV information
+\newcommand{\name}{Your Name}
+\newcommand{\titletext}{Prospective PhD Student}
+\newcommand{\address}{Your Address}
+\newcommand{\email}{your-email@example.com}
+\newcommand{\phone}{(123) 456-7890}
+\newcommand{\website}{www.yourwebsite.com}
+
+\begin{document}
+
+% Header
+\begin{minipage}[t]{0.7\textwidth}
+    \vspace{-\baselineskip}
+    \color{accentcolor}\Huge{\textbf{\name}}\vspace{-0.3em}\\
+    \textit{\titletext}\vspace{-0.7em}\\
+    \rule{\textwidth}{0.8pt}
+\end{minipage}%
+\begin{minipage}[t]{0.3\textwidth}
+    \vspace{-\baselineskip}
+    \raggedleft
+    \small{\textbf{Address:}}\\
+    \address\vspace{0.2em}\\
+    \small{\textbf{Email:}}\\
+    \email\vspace{0.2em}\\
+    \small{\textbf{Phone:}}\\
+    \phone\vspace{0.2em}\\
+    \small{\textbf{Website:}}\\
+    \website\vspace{0.2em}
+\end{minipage}
+
+% Education
+\section{Education}
+\begin{itemize}
+    \item[] \textbf{PhD in Your Field} \hfill \textit{Expected Graduation: Month Year}\\
+    University Name, City, Country
+    
+    \item[] \textbf{Master of Science in Your Field} \hfill \textit{Year}\\
+    University Name, City, Country
+    
+    \item[] \textbf{Bachelor of Science in Your Field} \hfill \textit{Year}\\
+    University Name, City, Country
+\end{itemize}
+
+% Research Experience
+\section{Research Experience}
+\begin{itemize}
+    \item[] \textbf{Research Assistant} \hfill \textit{Month Year -- Present}\\
+    Research Group, University Name, City, Country\\
+    Description of your research project and key accomplishments.
+    
+    \item[] \textbf{Research Intern} \hfill \textit{Month Year -- Month Year}\\
+    Company/Organization, City, Country\\
+    Description of your research project and key accomplishments.
+\end{itemize}
+
+% Publications
+\section{Publications}
+\begin{multicols}{2}
+\begin{itemize}
+    \item[] \textbf{Journal Article 1}\\
+    Author Names\\
+    Journal Name, Year
+    
+    \item[] \textbf{Journal Article 2}\\
+    Author Names\\
+    Journal Name, Year
+    
+    \item[] \textbf{Conference Paper 1}\\
+    Author Names\\
+    Conference Name, Year
+    
+    \item[] \textbf{Conference Paper 2}\\
+    Author Names\\
+    Conference Name, Year
+\end{itemize}
+\end{multicols}
+
+% Skills
+\section{Skills}
+\begin{itemize}
+    \item[] \textbf{Programming Languages:} Python, Java, C++
+    \item[] \textbf{Data Analysis:} MATLAB, R, Excel
+    \item[] \textbf{Machine Learning:} TensorFlow, Keras, scikit-learn
+    \item[] \textbf{Research Tools:} LaTeX, Git, Jupyter Notebook
+\end{itemize}
+
+% Awards and Honors
+\section{Awards and Honors}
+\begin{itemize}
+    \item[] Award 1 \hfill \textit{Year}
+    \item[] Award 2 \hfill \textit{Year}
+\end{itemize}
+
+% References
+\section{References}
+Available upon request.
+
+\end{document}
+

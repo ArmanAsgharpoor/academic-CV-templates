@@ -1,0 +1,131 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{multicol}
+\usepackage{hyperref}
+
+% Page Setup
+\geometry{
+    top=1cm,
+    bottom=1cm,
+    left=2cm,
+    right=2cm,
+    marginparwidth=0cm,
+    marginparsep=0cm
+}
+
+\pagestyle{empty}
+
+% Title Section
+\titleformat{\section}{\vspace{-4pt}\bfseries\Large}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+\titleformat{\subsection}{\vspace{-6pt}\bfseries\large}{}{0em}{}
+\titlespacing{\subsection}{0pt}{6pt}{2pt}
+
+\renewcommand{\maketitle}{
+    \begin{center}
+        \textbf{\huge Your Name}
+        
+        \vspace{2pt}
+        \textit{Curriculum Vitae}
+    \end{center}
+}
+
+% Custom Commands
+\newcommand{\cvsection}[1]{\section*{#1}}
+\newcommand{\cvsubsection}[2]{\subsection*{#1 \hfill \normalsize{#2}}}
+\newcommand{\cvitem}[2]{\textbf{#1} \hfill {#2}}
+\newcommand{\cventry}[4]{\textbf{#1} \hfill {#2} \\ \textit{#3} \hfill {#4}}
+
+% Document
+\begin{document}
+
+\maketitle
+
+% Contact Information
+\begin{multicols}{2}
+[
+\section*{Contact Information}
+]
+\raggedright
+123 Street, City, State \\
+Country \\
+Phone: (123) 456-7890 \\
+Email: yourname@example.com
+\columnbreak
+\raggedleft
+LinkedIn: \href{https://www.linkedin.com/in/yourname}{linkedin.com/in/yourname} \\
+Website: \href{https://www.yourwebsite.com}{yourwebsite.com}
+\end{multicols}
+
+% Education
+\cvsection{Education}
+\cventry{PhD in Computer Science}{University Name}{City, Country}{Expected 20XX}
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=0pt]
+    \item Research Area: Artificial Intelligence
+    \item Thesis: Title of Your Thesis
+\end{itemize}
+
+\cventry{Master of Science in Computer Science}{University Name}{City, Country}{20XX}
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=0pt]
+    \item Research Area: Machine Learning
+    \item Thesis: Title of Your Thesis
+\end{itemize}
+
+\cventry{Bachelor of Science in Computer Science}{University Name}{City, Country}{20XX}
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=0pt]
+    \item Honors: Summa Cum Laude
+\end{itemize}
+
+% Research Experience
+\cvsection{Research Experience}
+\cventry{Research Assistant}{University Name}{City, Country}{20XX--Present}
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=0pt]
+    \item Project Title: Name of Your Research Project
+    \item Developed algorithms and conducted experiments for data analysis.
+    \item Published research findings in reputable conferences and journals.
+\end{itemize}
+
+\cventry{Research Intern}{Company/Organization}{City, Country}{20XX--20XX}
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=0pt]
+    \item Project Title: Name of Your Research Project
+    \item Assisted in designing and implementing machine learning models.
+    \item Collaborated with a team to analyze and interpret experimental results.
+\end{itemize}
+
+% Publications
+\cvsection{Publications}
+\cvsubsection{Journal Articles}{}
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=0pt]
+    \item Lastname, F., Lastname, S., \& Lastname, T. (20XX). Title of the Article. \textit{Journal Name}, \textit{Volume}(Issue), Page-Page. DOI: xxx-xxx-xxxxx.
+\end{itemize}
+
+\cvsubsection{Conference Proceedings}{}
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=0pt]
+    \item Lastname, F., Lastname, S., \& Lastname, T. (20XX). Title of the Paper. In \textit{Proceedings of the Conference Name} (pp. Page-Page). City, Country: Publisher.
+\end{itemize}
+
+% Skills
+\cvsection{Skills}
+\cvitem{Programming Languages}{Python, Java, C++, MATLAB}
+\cvitem{Machine Learning}{TensorFlow, PyTorch, scikit-learn}
+\cvitem{Data Analysis}{NumPy, pandas, R}
+\cvitem{Languages}{English (Fluent), French (Intermediate)}
+
+% Awards and Honors
+\cvsection{Awards and Honors}
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=0pt]
+    \item Best Paper Award at the International Conference on AI, 20XX
+    \item Dean's List, University Name, 20XX--20XX
+\end{itemize}
+
+% References
+\cvsection{References}
+Available upon request.
+
+\end{document}

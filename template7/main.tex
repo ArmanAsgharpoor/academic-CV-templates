@@ -1,0 +1,112 @@
+\documentclass[a4paper,12pt]{article}
+
+% Packages
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[hidelinks]{hyperref}
+
+% Page setup
+\geometry{margin=1in}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{6pt}
+\titlespacing{\subsection}{0pt}{6pt}{3pt}
+
+% Custom commands
+\newcommand{\cvsection}[1]{\section*{#1}}
+\newcommand{\cvsubsection}[1]{\subsection*{#1}}
+\newcommand{\cvitem}[2]{\textbf{#1} \hfill \textit{#2}}
+
+% Personal information
+\newcommand{\name}{Your Name}
+\newcommand{\email}{your.email@example.com}
+\newcommand{\phone}{(123) 456-7890}
+\newcommand{\linkedin}{\href{https://www.linkedin.com/in/yourname}{linkedin.com/in/yourname}}
+\newcommand{\github}{\href{https://github.com/yourusername}{github.com/yourusername}}
+
+\begin{document}
+
+% Header
+\begin{center}
+    \textbf{\Huge{\name}}
+    
+    \vspace{4pt}
+    
+    \email \quad | \quad \phone \quad | \quad \linkedin \quad | \quad \github
+\end{center}
+
+% Education
+\cvsection{Education}
+\cvitem{PhD in Field of Study}{University Name \hfill Start Date -- Present}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Dissertation: \textit{Title of Your PhD Dissertation}
+    \item GPA: X.XX/4.00
+\end{itemize}
+
+\cvitem{Master of Science in Field of Study}{University Name \hfill Start Date -- End Date}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Thesis: \textit{Title of Your Master's Thesis}
+    \item GPA: X.XX/4.00
+\end{itemize}
+
+\cvitem{Bachelor of Science in Field of Study}{University Name \hfill Start Date -- End Date}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item GPA: X.XX/4.00
+\end{itemize}
+
+% Research Experience
+\cvsection{Research Experience}
+\cvitem{Research Assistant}{University Name \hfill Start Date -- Present}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Description of your research work and responsibilities.
+    \item Highlight any publications, presentations, or awards related to your research.
+\end{itemize}
+
+\cvitem{Research Intern}{Company/Organization \hfill Start Date -- End Date}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Description of your research work and responsibilities.
+    \item Highlight any publications, presentations, or awards related to your research.
+\end{itemize}
+
+% Publications
+\cvsection{Publications}
+\cvitem{Journal Article}{Authors, \textit{Title}, Journal Name, Year}
+\cvitem{Conference Paper}{Authors, \textit{Title}, Conference Name, Year}
+% Add more publications as necessary
+
+% Technical Skills
+\cvsection{Technical Skills}
+\cvsubsection{Programming Languages}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Proficient: Language 1, Language 2
+    \item Familiar: Language 3, Language 4
+\end{itemize}
+
+\cvsubsection{Software and Tools}
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+    \item Skill 1, Skill 2, Skill 3
+\end{itemize}
+
+% Awards and Honors
+\cvsection{Awards and Honors}
+\cvitem{Scholarship Name}{University Name \hfill Year}
+\cvitem{Award Name}{Organization/Institution \hfill Year}
+% Add more awards and honors as necessary
+
+% Professional Memberships
+\cvsection{Professional Memberships}
+\cvsubsection{Organization Name 1}
+\cvsubsection{Organization Name 2}
+% Add more professional memberships as necessary
+
+% References
+\cvsection{References}
+Available upon request.
+
+\end{document}
+

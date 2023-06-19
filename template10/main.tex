@@ -1,0 +1,87 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{xcolor}
+
+% Define colors
+\definecolor{primary}{RGB}{0,0,128}
+\definecolor{highlight}{RGB}{0,64,128}
+
+% Set section headings style
+\titleformat{\section}
+{\normalfont\Large\bfseries\color{primary}}
+{}{0em}{}
+
+% Set subsection headings style
+\titleformat{\subsection}
+{\normalfont\large\bfseries\color{highlight}}
+{}{0em}{}
+
+% Set itemize style
+\setlist[itemize]{label=\textbullet, nosep, leftmargin=*}
+
+% Set table style
+\renewcommand{\arraystretch}{1.2}
+
+\begin{document}
+
+\begin{center}
+    \Huge\textbf{\textcolor{primary}{Your Name}}
+\end{center}
+
+\section*{\textcolor{highlight}{Contact Information}}
+\begin{tabularx}{\textwidth}{@{}lX}
+    \textbf{Address:} & Your Street, City, Country \\
+    \textbf{Email:} & your.email@example.com \\
+    \textbf{Phone:} & +1 123-456-7890 \\
+    \textbf{Website:} & www.yourwebsite.com \\
+\end{tabularx}
+
+\section*{\textcolor{highlight}{Education}}
+\begin{tabularx}{\textwidth}{@{}lX}
+    \textbf{PhD in Subject} & University Name, City, Country \hfill \textbf{Expected Graduation:} Month Year \\
+    & Research Area: Your Research Area \\
+    & Thesis Title: Your Thesis Title \\
+    & Advisor: Name of Your Advisor \\
+    \textbf{Master of Science} & University Name, City, Country \hfill Month Year \\
+    & Major: Your Major \\
+    \textbf{Bachelor of Science} & University Name, City, Country \hfill Month Year \\
+    & Major: Your Major \\
+\end{tabularx}
+
+\section*{\textcolor{highlight}{Research Experience}}
+\begin{tabularx}{\textwidth}{@{}X}
+    \textbf{Research Assistant} \hfill Month Year -- Present \\
+    University Name, Department Name, City, Country \\
+    Description of your research responsibilities and accomplishments. \\
+    \\
+    \textbf{Research Intern} \hfill Month Year -- Month Year \\
+    Company/Organization Name, City, Country \\
+    Description of your research responsibilities and accomplishments. \\
+\end{tabularx}
+
+\section*{\textcolor{highlight}{Publications}}
+\begin{itemize}
+    \item Your First Publication Title. Journal/Conference Name, Year.
+    \item Your Second Publication Title. Journal/Conference Name, Year.
+\end{itemize}
+
+\section*{\textcolor{highlight}{Skills}}
+\begin{itemize}
+    \item Technical Skills: List relevant technical skills, programming languages, software, etc.
+    \item Soft Skills: List relevant soft skills, such as communication, teamwork, leadership, etc.
+\end{itemize}
+
+\section*{\textcolor{highlight}{Awards and Honors}}
+\begin{itemize}
+    \item List any awards, scholarships, or honors you have received.
+\end{itemize}
+
+\section*{\textcolor{highlight}{References}}
+Available upon request.
+
+\end{document}
